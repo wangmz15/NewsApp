@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="android-observablescrollview-1.5.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/9b78d3bee16c0ae1aefa5e2eecdec077cf475768/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/9b78d3bee16c0ae1aefa5e2eecdec077cf475768/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.ksoichiro/android-observablescrollview/1.5.0/9cb5feabb99b9668ed811a14e812d8a807cd74c3/android-observablescrollview-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
