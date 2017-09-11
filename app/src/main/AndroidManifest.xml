@@ -82,6 +82,12 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
         </activity>
+        <activity
+            android:name="com.ihandy.a2014011446.ui.SearchActivity"
+            android:label="Search"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Transparent" >
+        </activity>
 
         <!-- share SDK -->
         <activity

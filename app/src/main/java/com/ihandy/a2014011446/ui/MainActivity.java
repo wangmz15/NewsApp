@@ -17,6 +17,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -57,6 +58,8 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
     private View mShareButton;
     private View mFavoriteButton;
     private View mCategoryManagement;
+
+    private ImageButton mImageButton;
 
     private MaterialMenuIconToolbar mMaterialMenu;
 
@@ -117,6 +120,15 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
                 mDrawerLayout.openDrawer(Gravity.LEFT);
             }
         });
+
+        mImageButton = (ImageButton) findViewById(R.id.search_button);
+        mImageButton.setOnClickListener(new OnClickListener() {
+                                            @Override
+                                            public void onClick(View view) {
+                                                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+                                                startActivity(intent);
+                                            }
+                                        });
 
         mMaterialMenu = new MaterialMenuIconToolbar(this, Color.BLACK, MaterialMenuDrawable.Stroke.THIN) {
             @Override

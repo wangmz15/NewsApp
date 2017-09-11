@@ -2,202 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\umeng-update-v2.6.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8f00af139315de2cd24466f0c72e497fccd0b631">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng-update-v2.6.0_a420d0b2d5ad76625f0bf393dd1d72b61a3ffccd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-SinaWeibo-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="554f929d47197355c2ea672064cd080a7cd128e5">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-SinaWeibo-2.5.8_4b4b7c49ad677c8bbee2b055d75a7bd6e0bdeb72\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-QQ-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ede2b291f6309cb3ebf817cab2924c5516fbf97a">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QQ-2.5.8_0a5efe703b85c07857341d38aa6d6c32b8c41925\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ormlite-android-4.49-SNAPSHOT.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ecfae85e17f2472852fa8298952f9d52f6a6bfa4">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-android-4.49-SNAPSHOT_e9d4b7efb7330ee39824aae42334e4dcf4690058\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Wechat-Core-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5652d73d70e40370df2fba540f0bafe09549f3f">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Core-2.5.8_cac82c0e2f49170c59f3342156f82fea040c5066\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ormlite-core-4.49-SNAPSHOT.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9a8b276da6dada8141f614d3feba25a0e8589db7">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ormlite-core-4.49-SNAPSHOT_24a9c5d7ff3a9b63f8fb568985b0e98426568ba5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-GooglePlus-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fb2de8ab7a1590d34bd7fb0916ac5d6a81a84cc1">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-GooglePlus-2.5.8_98554bf70a493c892d3fa519ced628254942b3d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\Sunflower.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dffa0220b64d2017db2517325926313c5f186d73">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\Sunflower_5d075b360ae86b948f7eb4028a7d762c9c59cbe1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\json-20170516.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="949abe1460757b8dc9902c562f83e49675444572">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-20170516_67cf1baca9dfe6fd383e92abab6b1c37bfdf5993\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-QZone-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="edd407115587108a8fbf7f15923253f48a50a9bf">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-QZone-2.5.8_9f284daa1d4ca15171a73bd8ec2627abe874766c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Email-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b697fc964bb3b3075eaeac7cc7e5e5d366935cbf">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Email-2.5.8_368d7a6bbbdee4d30b527e0e0fa81772c4805945\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Evernote-2.5.8.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="305108272cf22a5639d8b8a6d8df930c97ee8671">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Evernote-2.5.8_d2bb4d61d50a7e6e685166fb5e4639f4754aaf7f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e457d374d745b3a4000c1c07d57f52ce03e6ecc3">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_26ce5f7e7ccdfd3b1e20a4a8f27340495999f3a0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Wechat-2.5.8.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Wechat-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="ca96a092095683ea13d7bfbbdb720342a0b050b0">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-2.5.8_1b951c0934d9b09ece82b84e19eaba13233e0dd9\classes.dex" />
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.5.8_f0fe58a283e89f8f66dd2f85412cf6a7f5be80d0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Core-2.5.8.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-GooglePlus-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="85f5874b452e076908cb403c1dde38d5f6e1c423">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Core-2.5.8_ac5aebe84f0c5aa09e4537ad181ad26ab8c5ebe5\classes.dex" />
+        sha1="fb2de8ab7a1590d34bd7fb0916ac5d6a81a84cc1">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-GooglePlus-2.5.8_4d96b0285d446f608ab416323a29b6635727e0de.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\Msc.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-QQ-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="361a1760accbaa7baa4ebae5fcbc92da81266e68">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\Msc_5b833ff5a87dbd7539402c5d72d1b14815850c4c\classes.dex" />
+        sha1="ede2b291f6309cb3ebf817cab2924c5516fbf97a">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.5.8_838a40683e050fdd35a543090ca5f9dfd8c649d1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\mframework.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\mframework_3c9a70ce0e8063004f669b142266ce40eb0dd7f3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-ShortMessage-2.5.8.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-ShortMessage-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="83d6cae15983ea683211e70d191328bb92a25515">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-ShortMessage-2.5.8_9f65a30be2342cf1db85eb0b21c6aaec1945bd71\classes.dex" />
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.5.8_8c264eea392afd77a8e038559500a39c731cc8f3.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\jsoup-1.7.3.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Evernote-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\jsoup-1.7.3_27bf0ad83dfbbc424010ef1affa678f77dee82bd\classes.dex" />
+        sha1="305108272cf22a5639d8b8a6d8df930c97ee8671">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Evernote-2.5.8_5ef2ea413f14f60dd26c5f6bf1724e558d4dec5f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Wechat-Moments-2.5.8.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Wechat-Core-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="390e374944794ce82712100dd1eba072e3ceabaa">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Moments-2.5.8_d7c45b8df4409cc59e1e7be41eda8fe12a3f68d1\classes.dex" />
+        sha1="d5652d73d70e40370df2fba540f0bafe09549f3f">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.5.8_861f6bcc1f97f5f9b01e76c343658731f507607a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ormlite-core-4.49-SNAPSHOT.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_da9a75f8353538b089590799754eab71bfca89f0\classes.dex" />
+        sha1="9a8b276da6dada8141f614d3feba25a0e8589db7">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ormlite-core-4.49-SNAPSHOT_81f0ab5edb1b8d00d070d01d23d9ddc920954025.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-Wechat-Favorite-2.5.8.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\umeng-update-v2.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f00af139315de2cd24466f0c72e497fccd0b631">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\umeng-update-v2.6.0_f02faa9590784e07893efcc1b645d43eb15d0233.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-QZone-2.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="edd407115587108a8fbf7f15923253f48a50a9bf">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.5.8_4fb52da9f7db7048d15afe4251180fd2ffab01fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\Sunflower.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dffa0220b64d2017db2517325926313c5f186d73">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\Sunflower_6e8f5aa3a49c3c18941cf971493a5e1ef7c4440f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ormlite-android-4.49-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecfae85e17f2472852fa8298952f9d52f6a6bfa4">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ormlite-android-4.49-SNAPSHOT_1801a1da186146fac17351e729dc41d417a26b33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\json-20170516.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="949abe1460757b8dc9902c562f83e49675444572">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\json-20170516_a673742435bf3a641a6ca96c94ae03ede2ae055b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\mframework.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25509058b34a5ee08dbf66e57078e3083735d200">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\mframework_ac14f55571049d4e545cdc10c8c3e305ff0ef198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Wechat-Favorite-2.5.8.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="b8822e298639b1fd1fba6b92397cb36d92f4c711">
-        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\ShareSDK-Wechat-Favorite-2.5.8_c4f25748938772074078eb8727056c8e1837752c\classes.dex" />
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.5.8_1e7776bef4efa50168ffe95fa400c8a0d0f3697f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Email-2.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b697fc964bb3b3075eaeac7cc7e5e5d366935cbf">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Email-2.5.8_7c8dc8e841f3078a8d588084e59c439e83b0eec7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Wechat-Moments-2.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="390e374944794ce82712100dd1eba072e3ceabaa">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.5.8_8674e09bf43d47ed241d3b5d76126eac9cc85600.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\Msc.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="361a1760accbaa7baa4ebae5fcbc92da81266e68">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\Msc_5ceea9dd2bb59794addeb4c1744c04668db52be7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\jsoup-1.7.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3_50ae81b7ef7db0783ca0dbb245a7db9ec23334a4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-SinaWeibo-2.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="554f929d47197355c2ea672064cd080a7cd128e5">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.5.8_ee887d05fcaeca85e2da015d65cf07bc58c90457.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\Projects\QuickNew\NewsApp\app\libs\ShareSDK-Core-2.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="85f5874b452e076908cb403c1dde38d5f6e1c423">
+        <dex dex="F:\Android\Projects\QuickNew\NewsApp\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.5.8_e96061c4daf8d395be7e1ab03786fb467f887492.jar" />
     </item>
 
 </items>
