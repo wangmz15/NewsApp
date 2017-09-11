@@ -68,14 +68,19 @@ public class NewsItemBiz {
         Log.i("GETITEM", "getNewsItems: " + url);
         jsonStr = StringUtils.replaceBlankAndSpace(jsonStr);
 
+        //jsonStr = StringUtils.replaceNme(jsonStr);
+
         String PATTERN = "\"list\":(\\[.*\\])";
         Pattern p =Pattern.compile(PATTERN);
         Matcher m = p.matcher(jsonStr);
         String jsonList = null;
         if(m.find()) jsonList = m.group(1);
         else return null;
+        Log.i(getClass().getName(), "jsonList: " + jsonList);
 
         jsonList = StringUtils.getRightJsonSyntax(jsonList);
+        Log.i(getClass().getName(), "rightJsonList: " + jsonList);
+
 
         List<NewsItem> newsItems = new ArrayList<NewsItem>();
         try {
@@ -88,44 +93,8 @@ public class NewsItemBiz {
             Log.i("info",currentPage+newsItem.getTitle());
             mNewsItemDao.createOrUpdate(newsItem);
         }
-        return newsItems;
 
-    }
 
-    public List<NewsItem> getNewsItemsByKey(String keyword,int currentPage) throws Exception {
-
-        String url = NewsAPIUtils.getNewsUrlBykey(keyword, currentPage);
-
-        String jsonStr = null;
-        //如果服务器未返回数据,则返回数据库中的数据
-        try {
-            jsonStr = HttpUtils.doGet(url);
-        }catch (Exception ex){
-            return null;
-        }
-        Log.i("GETITEM", "getNewsItems: " + url);
-        jsonStr = StringUtils.replaceBlankAndSpace(jsonStr);
-
-        String PATTERN = "\"list\":(\\[.*\\])";
-        Pattern p =Pattern.compile(PATTERN);
-        Matcher m = p.matcher(jsonStr);
-        String jsonList = null;
-        if(m.find()) jsonList = m.group(1);
-        else return null;
-
-        jsonList = StringUtils.getRightJsonSyntax(jsonList);
-
-        List<NewsItem> newsItems = new ArrayList<NewsItem>();
-        try {
-            newsItems = new Gson().fromJson(jsonList, new TypeToken<List<NewsItem>>() {}.getType());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        for(NewsItem newsItem : newsItems) {
-            //Log.i(newsItem.getTitle(),"newsItemInfo"+newsItem.getSourceUrl());
-            Log.i("info",currentPage+newsItem.getTitle());
-            mNewsItemDao.createOrUpdate(newsItem);
-        }
         return newsItems;
 
     }

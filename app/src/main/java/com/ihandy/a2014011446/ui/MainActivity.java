@@ -17,7 +17,6 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -29,6 +28,7 @@ import com.github.ksoichiro.android.observablescrollview.ScrollState;
 import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.iflytek.cloud.SpeechUtility;
+import com.ihandy.a2014011446.QuickNews;
 import com.ihandy.a2014011446.R;
 import com.ihandy.a2014011446.bean.NewsType;
 import com.ihandy.a2014011446.biz.NewsItemBiz;
@@ -44,6 +44,10 @@ import static android.support.v7.widget.RecyclerView.OnClickListener;
 
 public class MainActivity extends BaseActivity implements ObservableScrollViewCallbacks {
 
+
+    //文字模式
+    private QuickNews quickNews;
+
     private ViewPager mViewPager;
     //新闻列表
     private List<NewsListFragment> mFragmentList;
@@ -58,8 +62,7 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
     private View mShareButton;
     private View mFavoriteButton;
     private View mCategoryManagement;
-
-    private ImageButton mImageButton;
+    private View mImageButton;
 
     private MaterialMenuIconToolbar mMaterialMenu;
 
@@ -103,6 +106,9 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
         client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
+
+        quickNews = (QuickNews)getApplication();
+        quickNews.setImageMode(true);
     }
     private void InitSpeechUtility()
     {//初始化语音合成对象
@@ -120,15 +126,6 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
                 mDrawerLayout.openDrawer(Gravity.LEFT);
             }
         });
-
-        mImageButton = (ImageButton) findViewById(R.id.search_button);
-        mImageButton.setOnClickListener(new OnClickListener() {
-                                            @Override
-                                            public void onClick(View view) {
-                                                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
-                                                startActivity(intent);
-                                            }
-                                        });
 
         mMaterialMenu = new MaterialMenuIconToolbar(this, Color.BLACK, MaterialMenuDrawable.Stroke.THIN) {
             @Override
@@ -213,6 +210,22 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
                 startActivity(intent);
             }
         });
+
+        //文字图片模式
+        mImageButton = findViewById(R.id.drawer_item_image);
+        mImageButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                quickNews.setImageMode(!quickNews.getImageMode());
+                if (quickNews.getImageMode()){
+                    Toast.makeText(MainActivity.this,"图文模式",Toast.LENGTH_LONG).show();
+                }
+                else {
+                    Toast.makeText(MainActivity.this,"文本模式",Toast.LENGTH_LONG).show();
+                }
+
+            }
+        });
         //关于
         mAboutButton = findViewById(R.id.drawer_item_about);
         mAboutButton.setOnClickListener(new OnClickListener() {
@@ -229,7 +242,7 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
             public void onClick(View view) {
                 NewsItemBiz biz = new NewsItemBiz(MainActivity.this);
                 biz.clearCache();
-                Toast.makeText(MainActivity.this,getResources().getText(R.string.delete_success),Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,getResources().getText(R.string.delete_success),Toast.LENGTH_LONG).show();
             }
         });
     }

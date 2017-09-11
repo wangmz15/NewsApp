@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.iflytek.cloud.ErrorCode;
@@ -22,6 +23,7 @@ import com.iflytek.cloud.SpeechError;
 import com.iflytek.cloud.SpeechSynthesizer;
 import com.iflytek.cloud.SpeechUtility;
 import com.iflytek.cloud.SynthesizerListener;
+import com.ihandy.a2014011446.QuickNews;
 import com.ihandy.a2014011446.R;
 import com.ihandy.a2014011446.bean.FavoriteItem;
 import com.ihandy.a2014011446.bean.NewsItemSeen;
@@ -36,6 +38,10 @@ import java.sql.SQLException;
 
 public class NewsContentActivity extends BaseActivity {
 
+
+    //文字模式
+    QuickNews quickNews;
+
     private int mActionBarSize;
 
     private int mToolbarColor;
@@ -46,6 +52,7 @@ public class NewsContentActivity extends BaseActivity {
     private JSONObject json;
     private GestureFrameLayout gestureFrameLayout;  //滑动返回
     private WebView mWebView;
+    private TextView mTextView;
     private FavoriteItemDao mFavoriteItemDao;
     private NewsItemSeenDao mNewsItemSeenDao;
 
@@ -71,12 +78,10 @@ public class NewsContentActivity extends BaseActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_news_content);
-
-
-        init();
+        quickNews = (QuickNews)getApplication();
 
         //将看过的新闻加入数据库
         mNewsItemSeenDao = new NewsItemSeenDao(NewsContentActivity.this);
@@ -91,15 +96,9 @@ public class NewsContentActivity extends BaseActivity {
         newsItemSeen.setSourceUrl(sourceUrl);
         mNewsItemSeenDao.createOrUpdate(newsItemSeen);
 
-        //通过bundle获取文章内容的url
-        String mNewsContentUrl = this.getIntent().getBundleExtra("key").getString("news_URL");
-        //mNewsContentUrl = "https://www.baidu.com";
-        mWebView.loadUrl(mNewsContentUrl);
+
 
         SpeechUtility.createUtility(NewsContentActivity.this, SpeechConstant.APPID + "=59b3804b");
-//        Log.d("initTts","begin");
-//        mTts = SpeechSynthesizer.createSynthesizer(NewsContentActivity.this, mTtsInitListener);
-//        Log.d("initTts","Null"+String.valueOf((mTts==null)));
         initTtsObject();//初始化语音合成对象
         Log.d("initTts","Null"+String.valueOf((mTts==null)));
 
@@ -107,6 +106,20 @@ public class NewsContentActivity extends BaseActivity {
 
         initSpeechText(newsId);
 
+
+//        if (quickNews.getImageMode()) {
+//            setContentView(R.layout.activity_news_content);
+//            init();
+//            //通过bundle获取文章内容的url
+//            String mNewsContentUrl = this.getIntent().getBundleExtra("key").getString("news_URL");
+//            //mNewsContentUrl = "https://www.baidu.com";
+//            mWebView.loadUrl(mNewsContentUrl);
+//        }
+//        else {
+//            setContentView(R.layout.activity_news_content_text);
+//            System.out.println("newsForSpeech = " + newsForSpeech);
+//            init_textView(newsForSpeech);
+//        }
     }
 
     private void init() {
@@ -122,7 +135,6 @@ public class NewsContentActivity extends BaseActivity {
                 return true;
             }
         });
-
         mFavoriteItemDao = new FavoriteItemDao(NewsContentActivity.this);
 
         mToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
@@ -140,7 +152,6 @@ public class NewsContentActivity extends BaseActivity {
                 }
             }
         });
-
         mToolbarColor = getResources().getColor(R.color.primary_color);
 
         mActionBarSize = getActionBarSize();
@@ -152,8 +163,42 @@ public class NewsContentActivity extends BaseActivity {
         if (isNavBarTransparent()) {
             gestureFrameLayout.setPadding(0, getStatusBarHeight(), 0, getNavigationBarHeight());
         }
-
     }
+
+    private void init_textView(String text){
+        mTextView = (TextView) findViewById(R.id.textview);
+        mTextView.setText(text);
+//        mTextView = new TextView(this);
+        mFavoriteItemDao = new FavoriteItemDao(NewsContentActivity.this);
+
+        mToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.toolbar);
+        mToolbar.setNavigationIcon(getResources().getDrawable(R.drawable.ic_arrow_back_black_18dp));
+        setSupportActionBar(mToolbar);
+        mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                NewsContentActivity.this.finish();
+                String caller = NewsContentActivity.this.getIntent().getBundleExtra("key").getString("caller");
+                if(caller != null && caller.equals("FavoriteActivity")) {
+                    Intent intent = new Intent(NewsContentActivity.this, FavoriteActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);//刷新
+                    startActivity(intent);
+                }
+            }
+        });
+        mToolbarColor = getResources().getColor(R.color.primary_color);
+
+        mActionBarSize = getActionBarSize();
+
+        gestureFrameLayout = (GestureFrameLayout) findViewById(R.id.news_content_gesture_layout);
+        gestureFrameLayout.attachToActivity(this);
+
+        //因为顶栏透明，要让出顶栏和底栏空间
+        if (isNavBarTransparent()) {
+            gestureFrameLayout.setPadding(0, getStatusBarHeight(), 0, getNavigationBarHeight());
+        }
+    }
+
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
@@ -376,7 +421,9 @@ public class NewsContentActivity extends BaseActivity {
                     // Log.d("MainActivity",responseData);
                     Log.d("jsonStr",json.get("news_Title").toString());
                     Log.d("jsonStr",json.get("news_Content").toString());
-                    parseSpeechText(json.get("news_Title").toString()+json.get("news_Content").toString());
+                    newsForSpeech = json.get("news_Title").toString()+json.get("news_Content").toString();
+                    System.out.println("in init newsForSpeech = " + newsForSpeech);
+                    parseSpeechText(newsForSpeech);
 
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -384,10 +431,10 @@ public class NewsContentActivity extends BaseActivity {
             }
         }).start();
 
+
     }
     private void parseSpeechText(String newsText)
     {
-        newsForSpeech = newsText;
         Message message = new Message();
         message.what = 1;
         handler.sendMessage(message);
@@ -398,7 +445,17 @@ public class NewsContentActivity extends BaseActivity {
         public void handleMessage(Message msg) {
             switch (msg.what) {
                 case 1:
+                    if (quickNews.getImageMode()) {
+                        setContentView(R.layout.activity_news_content);
+                        init();
+                        mWebView.loadUrl(getIntent().getBundleExtra("key").getString("news_URL"));
 
+                    }
+                    else {
+
+                        setContentView(R.layout.activity_news_content_text);
+                        init_textView(newsForSpeech);
+                    }
                     break;
 
             }

@@ -31,6 +31,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
+        android:name=".QuickNews"
         android:allowBackup="true"
         android:icon="@drawable/ic_news"
         android:label="QuickNews"
@@ -79,12 +80,6 @@
         <activity
             android:name="com.ihandy.a2014011446.ui.FavoriteActivity"
             android:label="Favorite"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.Transparent" >
-        </activity>
-        <activity
-            android:name="com.ihandy.a2014011446.ui.SearchActivity"
-            android:label="Search"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
         </activity>

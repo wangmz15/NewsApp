@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.ihandy.a2014011446.QuickNews;
 import com.ihandy.a2014011446.R;
 import com.ihandy.a2014011446.bean.NewsItem;
 import com.ihandy.a2014011446.biz.NewsItemBiz;
@@ -30,6 +31,8 @@ import java.util.Set;
 import static com.ihandy.a2014011446.R.drawable.view_click_state_seen;
 
 public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.ViewHolder> {
+
+
 
     //当前显示的数据
     private List<NewsItem> mNewsList = new ArrayList<NewsItem>();
@@ -153,6 +156,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
         public void bindData(NewsItem newsItem){
             mTitleTextView.setText(newsItem.getTitle());
             mSourceTextView.setText(newsItem.getOrigin());
+
             loadBitmaps(newsItem);
             mNewsItem = newsItem;
         }
@@ -240,6 +244,7 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
             }
 
             private Bitmap downloadBitmap(String imageUrl) {
+
                 mNewsItem.setBitmap();
                 return mNewsItem.getBitmap();
             }

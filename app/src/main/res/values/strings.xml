@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">News</string>
+    <string name="app_name">QuickNews</string>
     <string name="news">冯志奇</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Setting</string>

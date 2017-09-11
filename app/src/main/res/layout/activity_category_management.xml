@@ -14,8 +14,7 @@
         android:layout_margin="@dimen/view_margin"
         android:textSize="@dimen/text_size_title"
         android:textAlignment="center"
-        android:textColor="#FF0000"
-        android:text="Watched"
+        android:text="关注"
         />
     <com.mobeta.android.dslv.DragSortListView
         xmlns:dslv="http://schemas.android.com/apk/res-auto"
@@ -46,8 +45,7 @@
     android:layout_margin="@dimen/view_margin"
     android:textSize="@dimen/text_size_title"
     android:textAlignment="center"
-    android:textColor="#FF0000"
-    android:text="Unwatched"
+    android:text="取消关注"
     />
     <com.mobeta.android.dslv.DragSortListView
         xmlns:dslv="http://schemas.android.com/apk/res-auto"

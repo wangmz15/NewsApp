@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <include
-            layout="@layout/common_toolbar"/>
+
+        <include layout="@layout/common_toolbar" />
 
         <WebView
             android:id="@+id/content_webview"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:background="#FFFFFF"/>
+            android:background="#FFFFFF" />
 
     </LinearLayout>
 </com.ihandy.a2014011446.ui.widget.GestureFrameLayout>
