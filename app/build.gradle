@@ -52,18 +52,18 @@ dependencies {
     compile 'com.balysv.materialmenu:material-menu-toolbar:1.5.1'
     compile 'be.webelite:ion-iconview:1.0.4@aar'
     compile files('libs/ormlite-android-4.49-SNAPSHOT.jar')
-    compile files('libs/ShareSDK-Core-2.5.8.jar')
-    compile files('libs/ShareSDK-Email-2.5.8.jar')
-    compile files('libs/ShareSDK-Evernote-2.5.8.jar')
-    compile files('libs/ShareSDK-GooglePlus-2.5.8.jar')
-    compile files('libs/ShareSDK-QQ-2.5.8.jar')
-    compile files('libs/ShareSDK-QZone-2.5.8.jar')
-    compile files('libs/ShareSDK-ShortMessage-2.5.8.jar')
-    compile files('libs/ShareSDK-SinaWeibo-2.5.8.jar')
-    compile files('libs/ShareSDK-Wechat-2.5.8.jar')
-    compile files('libs/ShareSDK-Wechat-Core-2.5.8.jar')
-    compile files('libs/ShareSDK-Wechat-Favorite-2.5.8.jar')
-    compile files('libs/ShareSDK-Wechat-Moments-2.5.8.jar')
+//    compile files('libs/ShareSDK-Core-2.5.8.jar')
+//    compile files('libs/ShareSDK-Email-2.5.8.jar')
+//    compile files('libs/ShareSDK-Evernote-2.5.8.jar')
+//    compile files('libs/ShareSDK-GooglePlus-2.5.8.jar')
+//    compile files('libs/ShareSDK-QQ-2.5.8.jar')
+//    compile files('libs/ShareSDK-QZone-2.5.8.jar')
+//    compile files('libs/ShareSDK-ShortMessage-2.5.8.jar')
+//    compile files('libs/ShareSDK-SinaWeibo-2.5.8.jar')
+//    compile files('libs/ShareSDK-Wechat-2.5.8.jar')
+//    compile files('libs/ShareSDK-Wechat-Core-2.5.8.jar')
+//    compile files('libs/ShareSDK-Wechat-Favorite-2.5.8.jar')
+//    compile files('libs/ShareSDK-Wechat-Moments-2.5.8.jar')
     compile files('libs/umeng-update-v2.6.0.jar')
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
     compile 'com.google.code.gson:gson:2.7'
@@ -71,6 +71,8 @@ dependencies {
     compile files('libs/Msc.jar')
     compile files('libs/Sunflower.jar')
     compile files('libs/json-20170516.jar')
+    compile files('libs/MobCommons-2017.0823.1556.jar')
+    compile files('libs/MobTools-2017.0823.1556.jar')
 }
 repositories {
     mavenCentral()

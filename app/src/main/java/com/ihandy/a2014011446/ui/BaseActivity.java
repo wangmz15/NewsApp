@@ -201,9 +201,9 @@ public class BaseActivity extends ActionBarActivity {
      * 分享
      */
     protected void showShare(Context context,String text, String title, String imagePath, String imageUrl, String url) {
-        ShareSDK.initSDK(this);
 
-        String appHomePage = getString(R.string.app_home_page);
+
+        String appHomePage = "http://www.github.com";
         String shareText = text != "" ? text : "\n分享自HHNews";
 
         OnekeyShare oks = new OnekeyShare();
@@ -211,7 +211,7 @@ public class BaseActivity extends ActionBarActivity {
         oks.disableSSOWhenAuthorize();
 
         // 分享时Notification的图标和文字
-        oks.setNotification(R.drawable.ic_news, getString(R.string.app_name));
+//        oks.setNotification(R.drawable.ic_news, getString(R.string.app_name));
         // title标题，印象笔记、邮箱、信息、微信、人人网和QQ空间使用
         oks.setTitle(title);
         // titleUrl是标题的网络链接，仅在人人网和QQ空间使用

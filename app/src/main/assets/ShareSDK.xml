@@ -52,19 +52,18 @@
 			Pocket         http://getpocket.com/developer/apps/new
     -->
     
-    <ShareSDK 
-        AppKey = "5e0227cff7bb"/> <!-- 修改成你在sharesdk后台注册的应用的appkey"-->
-    
+    <!--<ShareSDK -->
+        <!--AppKey = "5e0227cff7bb"/> &lt;!&ndash; 修改成你在sharesdk后台注册的应用的appkey"&ndash;&gt;-->
+    <!---->
     <!-- ShareByAppClient标识是否使用微博客户端分享，默认是false -->
     <SinaWeibo
         Id="7"
         SortId="7"
-		AppKey="620205448"
-		AppSecret="98bbe77f6acaeca77c3d2d5e1aaf7c88"
-        <!--AppKey="568898243"-->
-        <!--AppSecret="38a4f8204cc784f81f9f0daaf31e02e3"-->
-        RedirectUrl="http://www.sharesdk.cn"
+		AppKey="568898243"
+		AppSecret="38a4f8204cc784f81f9f0daaf31e02e3"
+		RedirectUrl="http://www.sharesdk.cn"
         ShareByAppClient="false"
+		ShareByWebApi="false"
         Enable="true" />
 
     <TencentWeibo
@@ -82,7 +81,10 @@
         AppId="1106404974"
         AppKey="W3uKIvnPlkx7FoKL"
         ShareByAppClient="false"
-        Enable="true" />
+		ShareByWebApi="true"
+		Enable="true" />
+		<!--ShareByWebApi="false"-->
+
     
     <!-- 
     	Wechat微信和WechatMoments微信朋友圈的appid是一样的；
