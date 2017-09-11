@@ -40,7 +40,8 @@ public class SearchActivity extends BaseActivity {
                         // 当点击搜索按钮时触发该方法
                 @Override
                 public boolean onQueryTextSubmit(String query){
-                    ViewInit(query);
+                    //ViewInit(query);
+                    return false;
                 }
 
                 @Override
