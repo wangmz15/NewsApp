@@ -75,6 +75,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\json-20170516.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="949abe1460757b8dc9902c562f83e49675444572">
+        <dex dex="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\json-20170516_67cf1baca9dfe6fd383e92abab6b1c37bfdf5993\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\Learn\Grade3A\JAVA\Pro910\NewsApp-master\NewsApp-master\app\libs\ShareSDK-QZone-2.5.8.jar"
         jumboMode="true"
         optimize="true"

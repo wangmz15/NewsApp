@@ -70,6 +70,7 @@ dependencies {
     compile 'asia.ivity.android:drag-sort-listview:1.0'
     compile files('libs/Msc.jar')
     compile files('libs/Sunflower.jar')
+    compile files('libs/json-20170516.jar')
 }
 repositories {
     mavenCentral()

@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -26,6 +28,9 @@ import com.ihandy.a2014011446.bean.NewsItemSeen;
 import com.ihandy.a2014011446.dao.FavoriteItemDao;
 import com.ihandy.a2014011446.dao.NewsItemSeenDao;
 import com.ihandy.a2014011446.ui.widget.GestureFrameLayout;
+import com.ihandy.a2014011446.utils.HttpUtils;
+
+import org.json.JSONObject;
 
 import java.sql.SQLException;
 
@@ -36,6 +41,9 @@ public class NewsContentActivity extends BaseActivity {
     private int mToolbarColor;
 
 
+    private String newsForSpeech;
+    private String jsonStr;
+    private JSONObject json;
     private GestureFrameLayout gestureFrameLayout;  //滑动返回
     private WebView mWebView;
     private FavoriteItemDao mFavoriteItemDao;
@@ -94,7 +102,11 @@ public class NewsContentActivity extends BaseActivity {
 //        Log.d("initTts","Null"+String.valueOf((mTts==null)));
         initTtsObject();//初始化语音合成对象
         Log.d("initTts","Null"+String.valueOf((mTts==null)));
+
         setParamsOfTts();//设置语音合成对象参数
+
+        initSpeechText(newsId);
+
     }
 
     private void init() {
@@ -254,7 +266,7 @@ public class NewsContentActivity extends BaseActivity {
     }
     private  void speak()
     {
-        int code = mTts.startSpeaking("我草你妈了个大傻逼", mTtsListener);
+        int code = mTts.startSpeaking(newsForSpeech, mTtsListener);
 
         if (code != ErrorCode.SUCCESS) {
             if (code == ErrorCode.ERROR_COMPONENT_NOT_INSTALLED) {
@@ -348,4 +360,54 @@ public class NewsContentActivity extends BaseActivity {
             mTts.destroy();
         }
     }
+
+    private void initSpeechText(final String newsID)
+    {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+
+                    jsonStr = HttpUtils.doGet("http://166.111.68.66:2042/news/action/query/detail?newsId="+newsID);
+                    json = new JSONObject(jsonStr);
+
+// String responseData = response.body().string();
+                    // Log.d("MainActivity","HELLO");
+                    // Log.d("MainActivity",responseData);
+                    Log.d("jsonStr",json.get("news_Title").toString());
+                    Log.d("jsonStr",json.get("news_Content").toString());
+                    parseSpeechText(json.get("news_Title").toString()+json.get("news_Content").toString());
+
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+
+    }
+    private void parseSpeechText(String newsText)
+    {
+        newsForSpeech = newsText;
+        Message message = new Message();
+        message.what = 1;
+        handler.sendMessage(message);
+    }
+
+    public Handler handler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            switch (msg.what) {
+                case 1:
+
+                    break;
+
+            }
+        }
+    };
+
+}
+class NewsObjectForSpeech
+{
+    String news_Title;
+    String news_Content;
 }
