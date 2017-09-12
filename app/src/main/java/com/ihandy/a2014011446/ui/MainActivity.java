@@ -17,6 +17,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -63,6 +64,7 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
     private View mFavoriteButton;
     private View mCategoryManagement;
     private View mImageButton;
+    private ImageButton searchButton;
 
     private MaterialMenuIconToolbar mMaterialMenu;
 
@@ -126,6 +128,17 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
                 mDrawerLayout.openDrawer(Gravity.LEFT);
             }
         });
+
+
+        searchButton = (ImageButton) findViewById(R.id.search_button);
+        searchButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
         mMaterialMenu = new MaterialMenuIconToolbar(this, Color.BLACK, MaterialMenuDrawable.Stroke.THIN) {
             @Override
@@ -321,7 +334,7 @@ public class MainActivity extends BaseActivity implements ObservableScrollViewCa
             }
             mNewsTypes.addAll(newsTypes);
             for(NewsType newsType : newsTypes) {
-                NewsListFragment fragment = NewsListFragment.newInstance(newsType);
+                NewsListFragment fragment = NewsListFragment.newInstance(newsType,"NotSearchType");
                 mFragmentList.add(fragment);
                 Log.i(getClass().getName(), "Add Type: " + newsType.getShowType());
             }

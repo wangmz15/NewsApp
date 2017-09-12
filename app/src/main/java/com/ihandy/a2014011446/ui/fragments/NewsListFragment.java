@@ -40,6 +40,9 @@ public class NewsListFragment extends BaseFragment {
 
     private static final String ARG_NEWS_TYPE = "newsType";//"科技"
     private static final String ARG_NEWS_URL_TYPE = "newsUrlType"; //"1"
+    private static final String NEWS_ITEM_IS_SEARCH = "NotSearchType";
+
+    private String keywords;
 
     //新闻类型
     private String mNewsType;
@@ -63,11 +66,12 @@ public class NewsListFragment extends BaseFragment {
         // Required empty public constructor
     }
 
-    public static NewsListFragment newInstance(NewsType newsType) {
+    public static NewsListFragment newInstance(NewsType newsType, String keyword) {
         NewsListFragment fragment = new NewsListFragment();
         Bundle args = new Bundle();
         args.putString(ARG_NEWS_TYPE, newsType.getShowType());
         args.putString(ARG_NEWS_URL_TYPE, newsType.getUrlType());
+        args.putSerializable(NEWS_ITEM_IS_SEARCH, keyword);
         fragment.setArguments(args);
         return fragment;
     }
@@ -194,6 +198,7 @@ public class NewsListFragment extends BaseFragment {
         if (getArguments() != null) {
             mNewsType = getArguments().getString(ARG_NEWS_TYPE);
             mNewsUrlType = getArguments().getString(ARG_NEWS_URL_TYPE);
+            keywords = getArguments().getString(NEWS_ITEM_IS_SEARCH);
         }
         mCurrentPage = 0;
     }
@@ -206,7 +211,7 @@ public class NewsListFragment extends BaseFragment {
      * @param forced      是否强制刷新
      */
     private void getNewsList(MyRecyclerAdapter adapter,int currentPage,boolean forced) {
-        LoadNewsListTask loadDataTask = new LoadNewsListTask(adapter,mNewsType,mNewsUrlType,forced);
+        LoadNewsListTask loadDataTask = new LoadNewsListTask(adapter,mNewsType,mNewsUrlType,forced, keywords);
         loadDataTask.execute(currentPage);
     }
 
@@ -223,13 +228,15 @@ public class NewsListFragment extends BaseFragment {
         private String mNewsType;
         private String mNewsUrltype;
         private boolean netAvailable;
+        private String keywords;
 
-        public LoadNewsListTask(MyRecyclerAdapter adapter,String newsType, String newsUrltype, boolean forced) {
+        public LoadNewsListTask(MyRecyclerAdapter adapter,String newsType, String newsUrltype, boolean forced, String keyword) {
             super();
             mAdapter = adapter;
             mIsForced = forced;
             mNewsType = newsType;
             mNewsUrltype = newsUrltype;
+            keywords = keyword;
         }
 
         /**
@@ -248,14 +255,15 @@ public class NewsListFragment extends BaseFragment {
                 if (!netAvailable){
                     Toast.makeText(getActivity(),"没有网络，即将载入缓存..."
                             ,Toast.LENGTH_LONG).show();
-                    return mNewsItemBiz.getNewsItemCache(mNewsType, currentPage[0]);
+                    if (keywords.equals("NotSearchType"))
+                        return mNewsItemBiz.getNewsItemCache(mNewsType, currentPage[0]);
+                    else return null;
                 }
                 else {
-                    List<NewsItem> x = mNewsItemBiz.getNewsItems(mNewsUrltype, currentPage[0]);
-                    for(NewsItem newsItem : x) {
-                        Log.i(newsItem.getTitle(),"newsItemInfoinFragment"+newsItem.getSourceUrl());
-                    }
-                    return x;//mNewsItemBiz.getNewsItems(mNewsType, currentPage[0]);
+                    if (keywords.equals("NotSearchType"))
+                        return mNewsItemBiz.getNewsItems(mNewsUrltype, currentPage[0]);
+                    else
+                        return mNewsItemBiz.getNewsItemsByKey(keywords, currentPage[0]);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
