@@ -95,7 +95,8 @@ public class HttpUtils {
                 (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
         Log.i("CheckedHttps",Context.CONNECTIVITY_SERVICE);
         NetworkInfo info = connectivityManager.getActiveNetworkInfo();
-        return (info != null && info.isConnected());
+        //return (info != null && info.isConnected());
+        return (info != null && info.isAvailable());
 
     }
 

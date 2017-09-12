@@ -81,6 +81,11 @@ public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.Vi
         Log.i("LIXU", "adapter" + mNewsList.size());
     }
 
+    public void setNews(List<NewsItem> news){
+        mNewsList = news;
+        Log.i("LIXU", "adapter" + mNewsList.size());
+    }
+
 //    public void setNewsItemDao(NewsItemDao mNewsItemDao){
 //        this.mNewsItemDao = mNewsItemDao;
 //    }

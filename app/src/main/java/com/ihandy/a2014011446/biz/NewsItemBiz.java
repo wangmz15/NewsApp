@@ -7,6 +7,7 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.ihandy.a2014011446.bean.NewsItem;
 import com.ihandy.a2014011446.dao.NewsItemDao;
+import com.ihandy.a2014011446.dao.NewsItemSeenDao;
 import com.ihandy.a2014011446.utils.FileUtils;
 import com.ihandy.a2014011446.utils.HttpUtils;
 import com.ihandy.a2014011446.utils.NewsAPIUtils;
@@ -25,10 +26,12 @@ import java.util.regex.Pattern;
 public class NewsItemBiz {
 
     private NewsItemDao mNewsItemDao;
+    private NewsItemSeenDao mNewsItemSeenDao;
     private FileUtils fileUtils;
 
     public NewsItemBiz(Context context) {
         mNewsItemDao = new NewsItemDao(context);
+        mNewsItemSeenDao = new NewsItemSeenDao(context);
         fileUtils = new FileUtils(context);
     }
     public NewsItemDao getmNewsItemDao(){
@@ -93,6 +96,7 @@ public class NewsItemBiz {
             Log.i("info",currentPage+newsItem.getTitle());
             mNewsItemDao.createOrUpdate(newsItem);
         }
+        Log.i("newsItemInfo:", String.valueOf(newsItems.size()));
         return newsItems;
     }
     public List<NewsItem> getNewsItemsByKey(String keyword,int currentPage) throws Exception {
@@ -138,6 +142,7 @@ public class NewsItemBiz {
      */
     public void clearCache(){
         mNewsItemDao.deleteAll();
+        mNewsItemSeenDao.deleteAll();
         fileUtils.deleteFile();
     }
 }

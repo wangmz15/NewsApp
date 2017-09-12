@@ -5,6 +5,7 @@ package com.ihandy.a2014011446.dao;
 import android.content.Context;
 import android.util.Log;
 
+import com.ihandy.a2014011446.bean.NewsItem;
 import com.ihandy.a2014011446.bean.NewsItemSeen;
 import com.j256.ormlite.dao.RuntimeExceptionDao;
 import com.j256.ormlite.stmt.DeleteBuilder;
@@ -34,13 +35,12 @@ public class NewsItemSeenDao {
         List<NewsItemSeen> itemSeen = mNewsItemSeenDao.queryForAll();
         return itemSeen;
     }
-//    public int deleteByNewsId(String newsId) throws SQLException {
-//        DeleteBuilder<NewsItemSeen, Integer> deleteBuilder = mNewsItemSeenDao.deleteBuilder();
-//        deleteBuilder.where().eq("news_ID",newsId);
-//        return deleteBuilder.delete();
-//    }
     public boolean searchIsExistByNewsId(String newsId) throws SQLException {
         List<NewsItemSeen> NewsItemSeen = mNewsItemSeenDao.queryBuilder().where().eq("news_ID",newsId).query();
         return (NewsItemSeen.size() > 0);
+    }
+
+    public void deleteAll(){
+        mNewsItemSeenDao.delete(queryAll());
     }
 }

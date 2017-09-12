@@ -18,7 +18,7 @@ public class NewsAPIUtils {
 //    }
     public static String getNewsUrl(String newsType, int currrntpage){
         return "http://166.111.68.66:2042/news/action/query/latest?pageNo="+ String.valueOf(currrntpage+1) + "&pageSize=" +
-                String.valueOf(currrntpage+5) + "&category=" + newsType;
+                String.valueOf(currrntpage+10) + "&category=" + newsType;
     }
     public static String getNewsUrlByKey(String keywords, int currrntpage){
         return "http://166.111.68.66:2042/news/action/query/search?keyword=" + keywords;

@@ -109,9 +109,10 @@ public class NewsListFragment extends BaseFragment {
 
             @Override
             public void onRefreshBegin(final PtrFrameLayout ptrFrameLayout) {
+                //mRecyclerView.removeAllViews();
                 mAdapter = new MyRecyclerAdapter(getActivity());
                 mRecyclerView.setAdapter(mAdapter);
-                mCurrentPage += 5;
+                mCurrentPage += 10;
                 getNewsList(mAdapter, mCurrentPage, true);
                 //ptrFrameLayout.refreshComplete();
             }
@@ -154,7 +155,7 @@ public class NewsListFragment extends BaseFragment {
                         ActivityCompat.startActivity(getActivity(), startActivityIntent, options.toBundle());
                         mAdapter = new MyRecyclerAdapter(getActivity());
                         mRecyclerView.setAdapter(mAdapter);
-                        getNewsList(mAdapter, mCurrentPage, false);
+                        getNewsList(mAdapter, mCurrentPage, true);
                     }
                 })
             );
@@ -163,7 +164,7 @@ public class NewsListFragment extends BaseFragment {
         mRecyclerView.setAdapter(mAdapter);
 
         //得到数据
-        getNewsList(mAdapter, mCurrentPage, false);
+        getNewsList(mAdapter, mCurrentPage, true);
 
 //        监听list滑动事件
         mRecyclerView.setOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -253,8 +254,9 @@ public class NewsListFragment extends BaseFragment {
                 //netAvailable = false;
                 Log.i("test-net-available", "doInBackground: netAvailable:" + netAvailable);
                 if (!netAvailable){
-                    Toast.makeText(getActivity(),"没有网络，即将载入缓存..."
-                            ,Toast.LENGTH_LONG).show();
+                    //Toast.makeText(getActivity(),"没有网络，即将载入缓存..."
+                           // ,Toast.LENGTH_LONG).show();
+                    Log.i("NetInformation","65156156165156");
                     if (keywords.equals("NotSearchType"))
                         return mNewsItemBiz.getNewsItemCache(mNewsType, currentPage[0]);
                     else return null;
@@ -286,14 +288,16 @@ public class NewsListFragment extends BaseFragment {
             if(mIsForced){
                 mAdapter.getmNewsList().clear();
             }
+            //Log.i("Iteminfomation",String.valueOf(newsItems.size()));
             mAdapter.addNews(newsItems);
+            //mAdapter.setNews(newsItems);
             //mAdapter.setNewsItemDao(mNewsItemBiz.getmNewsItemDao());
             mAdapter.notifyDataSetChanged();
             frame.refreshComplete();
             if(netAvailable)
                 Toast.makeText(getActivity(),getActivity().getResources().getString(R.string.net_avaiable),Toast.LENGTH_SHORT).show();
             else
-                Toast.makeText(getActivity(),"获取缓存成功",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(),"无网络连接，获取缓存成功",Toast.LENGTH_SHORT).show();
 //            mNewsItems.addAll(newsItems);
         }
 
