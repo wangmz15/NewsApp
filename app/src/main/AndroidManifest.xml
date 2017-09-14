@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ihandy.a2014011446" >
+    package="com.java.a5" >
 
 
     <!--连接网络权限，用于执行云端语音能力 -->
@@ -31,14 +31,14 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 
     <application
-        android:name=".QuickNews"
+        android:name="com.java.a5.QuickNews"
         android:allowBackup="true"
         android:icon="@drawable/ic_news"
-        android:label="QuickNews"
+        android:label="5_王苜子"
         >
         <activity
-            android:name="com.ihandy.a2014011446.ui.WelcomeActivity"
-            android:label="QuickNews"
+            android:name="com.java.a5.ui.WelcomeActivity"
+            android:label="5_王苜子"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
             <intent-filter>
@@ -48,43 +48,43 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.MainActivity"
-            android:label="QuickNews"
+            android:name="com.java.a5.ui.MainActivity"
+            android:label="5_王苜子"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.BaseActivity"
-            android:label="QuickNews"
+            android:name="com.java.a5.ui.BaseActivity"
+            android:label="5_王苜子"
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.NewsContentActivity"
+            android:name="com.java.a5.ui.NewsContentActivity"
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.AboutActivity"
+            android:name="com.java.a5.ui.AboutActivity"
             android:label="@string/about"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.CategoryManagementActivity"
+            android:name="com.java.a5.ui.CategoryManagementActivity"
             android:label="CategoryManagement"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.FavoriteActivity"
+            android:name="com.java.a5.ui.FavoriteActivity"
             android:label="Favorite"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
         </activity>
         <activity
-            android:name="com.ihandy.a2014011446.ui.SearchActivity"
+            android:name="com.java.a5.ui.SearchActivity"
             android:label="Search"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Transparent" >
@@ -113,7 +113,7 @@
         </activity>
         <!-- 微信分享回调 -->
         <activity
-            android:name="com.ihandy.a2014011446.wxapi.WXEntryActivity"
+            android:name="com.java.a5.wxapi.WXEntryActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true"
             android:screenOrientation="portrait"

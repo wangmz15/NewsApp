@@ -12,20 +12,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f744862-029b-4eb6-a75b-8c1bab927d56" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/News_App.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app-release .zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release.apk" afterPath="$PROJECT_DIR$/app/app-release.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/META-INF/CERT.RSA" afterPath="$PROJECT_DIR$/app/app-release/META-INF/CERT.RSA" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/classes.dex" afterPath="$PROJECT_DIR$/app/app-release/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/resources.arsc" afterPath="$PROJECT_DIR$/app/app-release/resources.arsc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Msc.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Msc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Core_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Core_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Email_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Email_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Evernote_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Evernote_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_GooglePlus_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_GooglePlus_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_QQ_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_QQ_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_QZone_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_QZone_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_ShortMessage_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_ShortMessage_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_SinaWeibo_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_SinaWeibo_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_Core_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_Core_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_Favorite_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_Favorite_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_Moments_2_5_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ShareSDK_Wechat_Moments_2_5_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Sunflower.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Sunflower.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_observablescrollview_1_5_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_observablescrollview_1_5_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_21_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_21_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_21_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/drag_sort_listview_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/drag_sort_listview_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ion_iconview_1_0_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ion_iconview_1_0_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/json_20170516.xml" afterPath="$PROJECT_DIR$/.idea/libraries/json_20170516.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jsoup_1_7_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_1_0_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_1_0_8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/material_menu_1_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/material_menu_1_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/material_menu_toolbar_1_5_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/material_menu_toolbar_1_5_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mframework.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mframework.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_android_4_49_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ormlite_android_4_49_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ormlite_core_4_49_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ormlite_core_4_49_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_21_0_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_21_0_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/systembartint_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/systembartint_1_0_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/ultra_ptr_1_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/ultra_ptr_1_0_7.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/umeng_update_v2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/umeng_update_v2_6_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MyRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MyRecyclerAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/app-release/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/META-INF/CERT.SF" afterPath="$PROJECT_DIR$/app/app-release/META-INF/CERT.SF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/app/app-release/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout-v17/activity_category_management.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout-v17/activity_category_management.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout-v17/activity_news_content_old.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout-v17/activity_news_content_old.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout-v17/item_category_management.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout-v17/item_category_management.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout-v17/layout_drawer.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout-v17/layout_drawer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_about.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_category_management.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_category_management.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_favorite.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_favorite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_news_content.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_news_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_news_content_old.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_news_content_old.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_search.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/activity_welcome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/common_toolbar.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/common_toolbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/cube_ptr_classic_default_header.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/cube_ptr_classic_default_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/fragment_news_list.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/fragment_news_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/item_category_management.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/item_category_management.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/item_favorite.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/item_favorite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/item_recyclerview.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/item_recyclerview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/layout_drawer.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/layout_drawer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/main_page.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/main_page.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_editpage.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_editpage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_editpage_at_layout.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_editpage_at_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_editpage_inc_image_layout.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_editpage_inc_image_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_share_actionbar.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_share_actionbar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_share_platform_list.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_share_platform_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_share_platform_list_item.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/skyblue_share_platform_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/tab.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/tab.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/tb_munion_aditem.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/tb_munion_aditem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/layout/tb_munion_adview.xml" afterPath="$PROJECT_DIR$/app/app-release/res/layout/tb_munion_adview.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/menu/menu_main.xml" afterPath="$PROJECT_DIR$/app/app-release/res/menu/menu_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/menu/menu_news_content.xml" afterPath="$PROJECT_DIR$/app/app-release/res/menu/menu_news_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release/res/menu/menu_news_content_favorite.xml" afterPath="$PROJECT_DIR$/app/app-release/res/menu/menu_news_content_favorite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/assets/ShareSDK.xml" afterPath="$PROJECT_DIR$/app/src/main/assets/ShareSDK.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_content.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_content_old.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_content_old.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_content_text.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_news_content_text.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_news_content.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_news_content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_news_content_favorite.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_news_content_favorite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/ihandy/a2014011446/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/java/a5/ApplicationTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/QuickNews.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/QuickNews.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/bean/FavoriteItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/bean/FavoriteItem.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/bean/NewsItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/bean/NewsItem.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/bean/NewsItemSeen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/bean/NewsItemSeen.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/bean/NewsType.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/bean/NewsType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/ImageDownLoader.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/ImageDownLoader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsItemBiz.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsTypeBiz.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsTypeBiz.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/DataBaseHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/DataBaseHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/FavoriteItemDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/FavoriteItemDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsItemDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsItemSeenDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsTypeDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsTypeDao.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/AboutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/AboutActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/CategoryManagementActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/CategoryManagementActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/FavoriteActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/FavoriteActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/FavoriteAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/FavoriteAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MainActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MyDragSortListViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MyDragSortListViewAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MyRecyclerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MyRecyclerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MyViewPagerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MyViewPagerAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/NewsContentActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/NewsContentActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/RecyclerItemClickListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/RecyclerItemClickListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/SearchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/SearchActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/WelcomeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/WelcomeActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/BaseFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/BaseFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/widget/GestureFrameLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/widget/GestureFrameLayout.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/widget/ObservableScrollView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/widget/ObservableScrollView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/CommonUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/CommonUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/FileUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/FileUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/HttpUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/NewsAPIUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/StringUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/StringUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/wxapi/WXEntryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/java/a5/wxapi/WXEntryActivity.java" />
     </list>
     <ignored path="News_App.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,15 +171,22 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="News_App" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="NewsAPIUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/NewsAPIUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="459">
               <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
               <folding />
             </state>
@@ -61,20 +194,20 @@
         </entry>
       </file>
       <file leaf-file-name="NewsContentActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/NewsContentActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/NewsContentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="86" column="68" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="68" />
+            <state relative-caret-position="1404">
+              <caret line="85" column="68" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="NewsItemSeenDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsItemSeenDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+            <state relative-caret-position="324">
+              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,9 +216,9 @@
         </entry>
       </file>
       <file leaf-file-name="WelcomeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/WelcomeActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/WelcomeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="567">
               <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
               <folding />
             </state>
@@ -94,65 +227,67 @@
       </file>
       <file leaf-file-name="item_recyclerview.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="486">
               <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/StringUtils.java">
+      <file leaf-file-name="NewsListFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2500">
-              <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
+            <state relative-caret-position="270">
+              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
               <folding>
-                <element signature="e#4637#4638#0" expanded="true" />
-                <element signature="e#4688#4689#0" expanded="true" />
+                <element signature="e#11238#11299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2225">
-              <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsItemBiz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1525">
-              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state relative-caret-position="405">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsListFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="610">
-              <caret line="299" column="52" selection-start-line="299" selection-start-column="52" selection-end-line="299" selection-end-column="52" />
+            <state relative-caret-position="-1870">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShareSDK.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/assets/ShareSDK.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -160,13 +295,17 @@
       </file>
     </leaf>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\Learn\Grade3A\JAVAPro\NewsApp\test.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Starry Sky\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\39296\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -179,14 +318,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="News_App" />
+              <option name="name" value="NewsApp" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="News_App" />
+                <option name="name" value="NewsApp" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -204,7 +343,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'News_App'." />
+                <option name="description" value="Displays the sub-projects of root project 'NewsApp'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -238,7 +377,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'News_App'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'NewsApp'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -253,7 +392,7 @@
                 <option name="name" value="prepareComBalysvMaterialmenuMaterialMenu151Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'News_App' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'NewsApp' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -281,7 +420,7 @@
                 <option name="name" value="prepareComAndroidSupportRecyclerviewV72102Library" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'News_App'." />
+                <option name="description" value="Displays all dependencies declared in root project 'NewsApp'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -346,7 +485,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'News_App'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'NewsApp'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -474,7 +613,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'News_App'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'NewsApp'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -785,12 +924,12 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'News_App'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'NewsApp'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'News_App'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'NewsApp'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -908,7 +1047,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'News_App'." />
+                <option name="description" value="Displays the properties of root project 'NewsApp'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1625,6 +1764,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="C:\Users\Starry Sky\Desktop\News_App" value="4515564118137" />
+        <entry key="D:\Learn\Grade3A\JAVAPro\NewsApp" value="4515986969078" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1820,7 +1960,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="News_App" />
+              <option name="name" value="NewsApp" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/src/announce" />
@@ -1976,7 +2116,6 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/SearchActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemDao.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java" />
@@ -1984,6 +2123,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/java/a2014011446/ui/fragments/NewsListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/assets/ShareSDK.xml" />
       </list>
     </option>
   </component>
@@ -2009,7 +2153,7 @@
       <showMembers />
       <showModules />
       <showLibraryContents />
-      <hideEmptyPackages />
+      <hideEmptyPackages AndroidView="false" />
       <abbreviatePackageNames />
       <autoscrollToSource />
       <autoscrollFromSource />
@@ -2018,18 +2162,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
+              <option name="myItemId" value="NewsApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
+              <option name="myItemId" value="NewsApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2039,7 +2188,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
+              <option name="myItemId" value="NewsApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2047,31 +2196,13 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a2014011446" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
+              <option name="myItemId" value="NewsApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2083,17 +2214,21 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="a2014011446" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="a5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
+              <option name="myItemId" value="NewsApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2103,23 +2238,11 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a2014011446" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fragments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="News_App" />
+              <option name="myItemId" value="NewsApp" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -2127,28 +2250,23 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a2014011446" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="192.168.194.101:5555" />
+    <property name="device.picker.selection" value="192.168.184.101:5555" />
+    <property name="ExportApk.ApkPath" value="D:\Learn\Grade3A\JAVAPro\NewsApp\app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2483,13 +2601,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31924883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08208154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298122" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2503,7 +2622,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2522,7 +2640,33 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/HttpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2403">
+          <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsItemBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7263">
+          <caret line="299" column="52" selection-start-line="299" selection-start-column="52" selection-end-line="299" selection-end-column="52" />
+          <folding>
+            <element signature="e#11238#11299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/NewsAPIUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
@@ -2530,7 +2674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/NewsContentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/NewsContentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2150">
           <caret line="86" column="68" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="68" />
@@ -2538,7 +2682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsItemSeenDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
@@ -2548,7 +2692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/WelcomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/WelcomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2557,17 +2701,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -2575,18 +2719,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
           <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
           <folding>
-            <element signature="e#4637#4638#0" expanded="true" />
-            <element signature="e#4688#4689#0" expanded="true" />
+            <element signature="e#4549#4550#0" expanded="false" />
+            <element signature="e#4600#4601#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2225">
           <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
@@ -2594,7 +2738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsItemBiz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1525">
           <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
@@ -2602,15 +2746,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#11238#11299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/NewsAPIUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
@@ -2618,7 +2764,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsItemBiz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
@@ -2626,18 +2772,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7250">
           <caret line="336" column="97" selection-start-line="336" selection-start-column="97" selection-end-line="336" selection-end-column="97" />
           <folding>
-            <element signature="e#4637#4638#0" expanded="true" />
-            <element signature="e#4688#4689#0" expanded="true" />
+            <element signature="e#4549#4550#0" expanded="false" />
+            <element signature="e#4600#4601#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/SearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/SearchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1850">
           <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
@@ -2645,13 +2791,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -2662,25 +2808,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#11238#11299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_toolbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/NewsAPIUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
           <caret line="23" column="75" selection-start-line="23" selection-start-column="75" selection-end-line="23" selection-end-column="75" />
@@ -2688,7 +2836,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsItemBiz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2500">
           <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
@@ -2696,18 +2844,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8400">
           <caret line="336" column="97" selection-start-line="336" selection-start-column="97" selection-end-line="336" selection-end-column="97" />
           <folding>
-            <element signature="e#4637#4638#0" expanded="true" />
-            <element signature="e#4688#4689#0" expanded="true" />
+            <element signature="e#4549#4550#0" expanded="false" />
+            <element signature="e#4600#4601#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/SearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/SearchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1850">
           <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
@@ -2715,13 +2863,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -2732,70 +2880,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5875">
           <caret line="265" column="88" selection-start-line="265" selection-start-column="88" selection-end-line="265" selection-end-column="88" />
-          <folding />
+          <folding>
+            <element signature="e#11238#11299#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_toolbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2175">
-          <caret line="87" column="33" selection-start-line="87" selection-start-column="33" selection-end-line="87" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/common_toolbar.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/SearchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/SearchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1850">
           <caret line="93" column="12" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemDao.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsItemDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="51" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/bean/NewsItemSeen.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/bean/NewsItemSeen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -2817,7 +2956,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MyRecyclerAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MyRecyclerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="685">
           <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
@@ -2825,90 +2964,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/StringUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/StringUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="108">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/HttpUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2225">
+        <state relative-caret-position="2403">
           <caret line="98" column="51" selection-start-line="98" selection-start-column="51" selection-end-line="98" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
+        <state relative-caret-position="2700">
           <caret line="145" column="36" selection-start-line="145" selection-start-column="36" selection-end-line="145" selection-end-column="36" />
           <folding>
-            <element signature="e#4637#4638#0" expanded="true" />
-            <element signature="e#4688#4689#0" expanded="true" />
+            <element signature="e#4549#4550#0" expanded="false" />
+            <element signature="e#4600#4601#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/biz/NewsItemBiz.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/biz/NewsItemBiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1525">
+        <state relative-caret-position="1647">
           <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_recyclerview.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="486">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/utils/NewsAPIUtils.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/utils/NewsAPIUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="459">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/NewsContentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/NewsContentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="86" column="68" selection-start-line="86" selection-start-column="47" selection-end-line="86" selection-end-column="68" />
+        <state relative-caret-position="1404">
+          <caret line="85" column="68" selection-start-line="85" selection-start-column="47" selection-end-line="85" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/dao/NewsItemSeenDao.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/dao/NewsItemSeenDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="77" selection-start-line="21" selection-start-column="77" selection-end-line="21" selection-end-column="77" />
+        <state relative-caret-position="324">
+          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/WelcomeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/WelcomeActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
+        <state relative-caret-position="567">
           <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ihandy/a2014011446/ui/fragments/NewsListFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/java/a5/ui/fragments/NewsListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="299" column="52" selection-start-line="299" selection-start-column="52" selection-end-line="299" selection-end-column="52" />
+        <state relative-caret-position="270">
+          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+          <folding>
+            <element signature="e#11238#11299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1870">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/ShareSDK.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>

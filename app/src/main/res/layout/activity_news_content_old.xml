@@ -1,11 +1,11 @@
-<com.ihandy.a2014011446.ui.widget.GestureFrameLayout
+<com.java.a5.ui.widget.GestureFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/news_content_gesture_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/back_ground_color"
-    tools:context="com.ihandy.a2014011446.ui.NewsContentActivity">
+    tools:context="com.java.a5.ui.NewsContentActivity">
 
     <include
         layout="@layout/common_toolbar"/>
@@ -68,4 +68,4 @@
                     />
             </RelativeLayout>
         </ScrollView>
-</com.ihandy.a2014011446.ui.widget.GestureFrameLayout>
+</com.java.a5.ui.widget.GestureFrameLayout>

@@ -13,7 +13,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.ihandy.a2014011446"
+        applicationId "com.java.a5"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 4
